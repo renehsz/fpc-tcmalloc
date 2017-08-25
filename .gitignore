@@ -1,0 +1,17 @@
+*.exe
+*.dll
+*.so
+*.dylib
+*.lrs
+*.res
+*.compiled
+*.dbg
+*.ppu
+*.o
+*.or
+*.a
+*.bak
+test
+gperftools/*
+
+
