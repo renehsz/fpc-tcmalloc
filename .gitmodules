@@ -1,6 +1,3 @@
-[submodule "fpc-tcmalloc"]
-	path = fpc-tcmalloc
-	url = https://github.com/ReneHSZ/fpc-tcmalloc.git
 [submodule "gperftools"]
 	path = gperftools
 	url = https://github.com/gperftools/gperftools.git
