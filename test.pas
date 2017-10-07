@@ -5,7 +5,7 @@ uses fpc_tcmalloc;
 var t: PChar;
 
 begin 
-  t := GetMem(13);
-  t := PChar('Hello, world');
+  t := GetMem(14);
+  t := PChar('Hello, world' + chr(10));
   Write(String(t));
 end.

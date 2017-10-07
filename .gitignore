@@ -12,6 +12,8 @@
 *.a
 *.bak
 test
+test2_tcmalloc
+test2_fpc
 gperftools/*
 
 
