@@ -2,13 +2,10 @@ Unit fpc_tcmalloc;
 
 Interface
 
-{LINKLIB c}
 {$LINKLIB tcmalloc_minimal}
-{LINKLIB stacktrace}
 
 const
-(*  LibName = 'libtcmalloc_minimal';*)
-    LibName = 'c';
+    LibName = 'libtcmalloc_minimal';
 
 Function tc_malloc (Size: ptruint): Pointer; cdecl; external LibName name 'tc_malloc';
 Procedure tc_free  (P: Pointer); cdecl; external LibName name 'tc_free';
