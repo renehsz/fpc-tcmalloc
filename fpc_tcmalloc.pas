@@ -40,9 +40,9 @@ Function TCFreeMemSize(P: Pointer; Size: ptruint): ptruint;
 begin
   if Size <= 0 then
   begin
-    if Size < 0 then
-      runerror(204);
-    exit;
+    if Size = 0 then
+      exit;
+    runerror(204);
   end;
 
   if P <> nil then
